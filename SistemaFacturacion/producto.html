@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cliente.css">
+    <title>Sistema de Facturación</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Facturación</h1>
+    </header>
+
+    <main class="flex">
+        <div class="container-formulario flex">
+            <form id="producto">
+                <div id="form-group flex">
+                    <!-- <select name="Genero" id="genero">
+                        <option>-Seleccione su genero</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select>
+                </div> -->
+<!-- 
+                <div id="form-group flex">
+                    <input id="doc" type="text" placeholder="Ingrese su Numero de Identificacion" required>
+                </div> -->
+                <div id="form-group">
+                    <input id="nombre" type="text" placeholder="Ingrese el Nombre del producto" required>
+                </div>
+                <div id="form-group">
+                    <input id="stock" type="number" placeholder="Ingrese el stock a ingresar" required>
+                </div>
+                <!-- <div id="form-group">
+                    <input id="fecha_nac" type="date" required>
+                </div> -->
+                <div id="form-group">
+                    <input id="precio" type="number" placeholder="Ingrese el precio del producto" required>
+                </div>
+                
+                <select name="Empresa" id="empresa">
+                  <option>-Seleccione la empresa proveedora</option>
+                  <option value="empresax">EmpresaX</option>
+                  <option value="empresay">EmpresaY</option>
+              </select>
+                <div class="form-group submit flex">
+                    <input type="submit" value="GUARDAR">
+                </div>
+            
+            </form></div>
+        </div>
+        <div class="container-registro">
+            
+        </div>
+    </main>
+
+    <footer>
+        <h3>&copy; ADSO 1</h3>
+    </footer>
+
+<script src="/SistemaFacturacion/js/indexP.js" type="module"></script>
+
+</body>
+</html> 
